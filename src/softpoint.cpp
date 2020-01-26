@@ -10,6 +10,7 @@
 */ 
 
 #include "softpoint.h"
+#include <stdio.h>
 
 #ifdef HAVE_CONFIG_H
 #include "config.h"
@@ -96,6 +97,9 @@ int main(int argc, char *argv[]) {
     higgsUncertainties = false;
 
   int numPoints = 1;
+  char tmpstring[100];
+  printf("Attach debugger now if you are so inclined. Press ENTER to continue.\n");
+  fgets(tmpstring, sizeof(tmpstring), stdin);
 
   double qMax = 0.;
 
