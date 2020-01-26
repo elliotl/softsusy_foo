@@ -412,13 +412,13 @@ AUTOMAKE = ${SHELL} /Users/elliotleonard/depot/softsusy_foo/Config/missing autom
 AWK = awk
 CC = gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -O0 -Wall
+CFLAGS = -O0 -g -Wall
 CPP = gcc -E
 CPPFLAGS =  $(am__append_11)
 CXX = g++
 CXXCPP = g++ -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -O2 -std=c++14
+CXXFLAGS = -O0 -g -std=c++14
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -431,7 +431,7 @@ ECHO_T =
 EGREP = /usr/bin/grep -E
 EXEEXT = 
 F77 = gfortran
-FFLAGS = -O2
+FFLAGS = -O0
 FGREP = /usr/bin/grep -F
 FLIBS =  -L/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0 -L/usr/local/Cellar/gcc/9.2.0_3/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../.. -lgfortran -lquadmath -lm
 GREP = /usr/bin/grep
